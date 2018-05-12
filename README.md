@@ -5,5 +5,6 @@
 <a id="Tutorial"></a>
  * **To install:**
  
-   **1** Copy ***.pxe*** file to *C:\Program Files\PhoenixRC\resources\engines\airplane*, and 
-   **2** Copy ***.wav*** files to *C:\Program Files\PhoenixRC\resources\soundEffects\planes*
+   **1)** Copy ***.pxe*** file to *C:\Program Files\PhoenixRC\resources\engines\airplane*, and 
+   
+   **2)** Copy ***.wav*** files to *C:\Program Files\PhoenixRC\resources\soundEffects\planes*
