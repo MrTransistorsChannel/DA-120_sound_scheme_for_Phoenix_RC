@@ -1,0 +1,40 @@
+
+
+physics.engines[physics.engines.count] =
+{
+
+	name = "DA 120",
+	class = "Airplane",
+	volume = 1.0,
+	pitch = 1.0,
+	exhaust = 1,
+
+	effects = 
+	{
+		{
+			sample = "DA-120_idle.wav",
+			points = 
+			{
+				{ 0,	75,		100 },		
+				{ 30,	100,	150 },		
+				{ 60,		50,		200 },		
+			}
+		},
+
+		{
+			sample = "DA-120_fullThrottle.wav",
+			points = 
+			{
+				{ 0,	0,		25 },		
+				{ 50,	100,	50 }, 		
+				{ 150,	100,	100 },
+			}
+		}
+	}
+
+}
+
+physics.engines["DA 120"] = physics.engines[physics.engines.count]
+physics.engines.count = physics.engines.count + 1
+
+
